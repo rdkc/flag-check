@@ -37,6 +37,15 @@ function handleError(res, reason, message, code) {
   res.status(code || 500).json({"error": message});
 }
 
+/*  "home"
+ *    GET: gives a message
+ *    
+ */
+
+app.get("/home", function(req, res) {
+    res.send("Welcome home!");
+  });
+
 /*  "/api/flags"
  *    GET: finds all flags
  *    POST: creates a new contact
