@@ -43,7 +43,7 @@ function handleError(res, reason, message, code) {
  */
 
 app.get("/home", function(req, res) {
-    res.send("Welcome home America!");
+    res.send("Welcome back home!");
   });
 
 /*  "/api/flags"
