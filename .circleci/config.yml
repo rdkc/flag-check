@@ -30,3 +30,9 @@ jobs:
           paths:
             - node_modules
           key: v1-dependencies-{{ checksum "package.json" }}
+
+deployment:
+  staging:
+    branch: master
+    heroku:
+      appname: flag-check-circle-ci
