@@ -2,4 +2,4 @@ deployment:
   staging:
     branch: master
     heroku:
-      appname: flag-check
+      appname: flag-check-circle-ci
